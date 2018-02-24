@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e24bfa7f-1f69-4906-b5de-a3df8b284e1e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Person/Person.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Person.js" afterPath="$PROJECT_DIR$/src/Person/Person.js" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,13 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="-15">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <marker date="1519508585681" expanded="true" signature="1069:1788" ph="..." />
+                <marker date="1519508585681" expanded="true" signature="1165:1218" ph="..." />
+                <marker date="1519508585681" expanded="false" signature="1186:1193" ph="..." />
+                <marker date="1519508585681" expanded="true" signature="1301:1397" ph="..." />
+                <marker date="1519508585681" expanded="true" signature="1416:1470" ph="..." />
+                <marker date="1519508585681" expanded="true" signature="1679:1775" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Person.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Person/Person.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -93,9 +98,9 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Person/Person.js" />
         <option value="$PROJECT_DIR$/src/Person/Person.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -111,7 +116,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,7 +277,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519393510661</updated>
       <workItem from="1519393512621" duration="3438000" />
-      <workItem from="1519505908938" duration="2515000" />
+      <workItem from="1519505908938" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="Understanding the Folder Structure">
       <created>1519394356261</created>
@@ -351,14 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519508146924</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding Styling with Stylesheets">
+      <created>1519508437996</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1519508437996</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5953000" />
+    <option name="totallyTimeSpent" value="6173000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="527" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -366,7 +378,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34796926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27877238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25054705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -402,7 +414,8 @@
     <MESSAGE value="Manipulating the State" />
     <MESSAGE value="Passing Method References Between Components" />
     <MESSAGE value="Adding Two Way Binding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Two Way Binding" />
+    <MESSAGE value="Adding Styling with Stylesheets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Styling with Stylesheets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -433,6 +446,12 @@
           <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1519508585681" expanded="true" signature="1069:1788" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1165:1218" ph="..." />
+            <marker date="1519508585681" expanded="false" signature="1186:1193" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1301:1397" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1416:1470" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1679:1775" ph="..." />
           </folding>
         </state>
       </provider>
@@ -521,16 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -546,6 +555,22 @@
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1519508585681" expanded="true" signature="1069:1788" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1165:1218" ph="..." />
+            <marker date="1519508585681" expanded="false" signature="1186:1193" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1301:1397" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1416:1470" ph="..." />
+            <marker date="1519508585681" expanded="true" signature="1679:1775" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
