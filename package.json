@@ -92,6 +92,8 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "node-dev": "^3.0.0"
+    "eslint-plugin-cypress": "^2.2.0",
+    "node-dev": "^3.0.0",
+    "typescript": "^3.3.1"
   }
 }
