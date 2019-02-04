@@ -6,15 +6,27 @@ import PropTypes from 'prop-types';
 
 class App extends Component {
 
-    state = {
-        persons: [
-            {id: 'zxcv', name: 'Max', age: 28},
-            {id: 'asdf', name: 'Manu', age: 29},
-            {id: 'qwer', name: 'Stephanie', age: 26}
-        ],
-        otherState: 'some other value',
-        showPersons: false
-    };
+    constructor(props) {
+        super(props);
+        console.log('[App.js] Inside Constructor', props);
+        this.state = {
+            persons: [
+                {id: 'zxcv', name: 'Max', age: 28},
+                {id: 'asdf', name: 'Manu', age: 29},
+                {id: 'qwer', name: 'Stephanie', age: 26}
+            ],
+            otherState: 'some other value',
+            showPersons: false
+        };
+    }
+
+    componentWillMount() {
+        console.log('[App.js] Inside componentWillMount');
+    }
+
+    componentDidMount() {
+        console.log('[App.js] Inside componentDidMount');
+    }
 
     nameChangedHandler = (event, id) => {
 
@@ -50,6 +62,8 @@ class App extends Component {
     };
 
     render() {
+        console.log('[App.js] Inside render');
+
         let persons = null;
 
         if (this.state.showPersons) {
