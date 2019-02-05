@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e24bfa7f-1f69-4906-b5de-a3df8b284e1e" name="Default" comment="Component Creation Lifecycle in Action">
+    <list default="true" id="e24bfa7f-1f69-4906-b5de-a3df8b284e1e" name="Default" comment="Updating Lifecycle Hooks (Triggered by State Changes)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Persons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="29" selection-start-line="9" selection-start-column="4" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+            <state relative-caret-position="75">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -130,6 +128,7 @@
       <find>switchNameHandler</find>
       <find>const style</find>
       <find>chalk</find>
+      <find>UPDATE Persons.js</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,8 +152,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
         <option value="$PROJECT_DIR$/.eslintrc" />
-        <option value="$PROJECT_DIR$/src/containers/App.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Person/Person.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
       </list>
     </option>
@@ -330,7 +329,7 @@
       <workItem from="1524058315636" duration="803000" />
       <workItem from="1549307414558" duration="911000" />
       <workItem from="1549308415244" duration="4782000" />
-      <workItem from="1549395463350" duration="1604000" />
+      <workItem from="1549395463350" duration="2644000" />
     </task>
     <task id="LOCAL-00001" summary="Understanding the Folder Structure">
       <created>1519394356261</created>
@@ -542,11 +541,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549313078938</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Component Updating Lifecycle in Action">
+      <created>1549397199127</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1549397199127</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updating Lifecycle Hooks (Triggered by State Changes)">
+      <created>1549397533342</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1549397533342</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39198000" />
+    <option name="totallyTimeSpent" value="40238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2396" y="34" width="4808" height="2670" extended-state="4" />
@@ -564,7 +577,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.40420082" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.40417838" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26074728" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -623,8 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Working with Props" />
-    <MESSAGE value="Understanding the Children Property" />
     <MESSAGE value="Understanding &amp; Using State" />
     <MESSAGE value="Manipulating the State" />
     <MESSAGE value="Passing Method References Between Components" />
@@ -648,7 +659,9 @@
     <MESSAGE value="Comparing Stateless and Stateful Components" />
     <MESSAGE value="Converting Stateless to Stateful Components" />
     <MESSAGE value="Component Creation Lifecycle in Action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Component Creation Lifecycle in Action" />
+    <MESSAGE value="Component Updating Lifecycle in Action" />
+    <MESSAGE value="Updating Lifecycle Hooks (Triggered by State Changes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Lifecycle Hooks (Triggered by State Changes)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -713,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="29" selection-start-line="9" selection-start-column="4" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -768,10 +771,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+        <state relative-caret-position="75">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
