@@ -1,9 +1,7 @@
 import React, {useEffect} from 'react';
 import classes from './Cockpit.css';
-import WithClass from "../../hoc/WithClass";
 
-const cockpit = (props) => {
-
+const cockpit = props => {
     useEffect(() => {
         console.log('[Cockpit.js] useEffect');
 
@@ -24,11 +22,9 @@ const cockpit = (props) => {
     });
 
     let btnClass = '';
-
     if (props.showPersons) {
         btnClass = classes.Red;
     }
-
 
     const assignedClasses = [];
     if (props.personsLength <= 2) {
@@ -36,18 +32,16 @@ const cockpit = (props) => {
     }
     if (props.personsLength <= 1) {
         assignedClasses.push(classes.bold);
-
     }
 
     return (
-        <WithClass classes={classes.Cockpit}>
+        <div className={classes.Cockpit}>
             <h1>{props.title}</h1>
-            <p className={assignedClasses.join(' ')}>This is really working</p>
-            <button
-                className={btnClass}
-                onClick={props.clicked}>Toggle Persons
+            <p className={assignedClasses.join(' ')}>This is really working!</p>
+            <button className={btnClass} onClick={props.clicked}>
+                Toggle Persons
             </button>
-        </WithClass>
+        </div>
     );
 };
 

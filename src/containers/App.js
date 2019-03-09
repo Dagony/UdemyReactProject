@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
+import withClass from '../hoc/WithClass';
+import Aux from "../hoc/Aux";
 
 class App extends Component {
 
@@ -77,16 +79,16 @@ class App extends Component {
         let persons = null;
 
         if (this.state.showPersons) {
-            persons = <Persons
-                persons={this.state.persons}
-                clicked={this.deletePersonHandler}
-                changed={this.nameChangedHandler}
-            />;
-
+            persons = (<Persons
+                    persons={this.state.persons}
+                    clicked={this.deletePersonHandler}
+                    changed={this.nameChangedHandler}
+                />
+            );
         }
 
         return (
-            <div className={classes.App}>
+            <Aux>
                 <button onClick={() => {
                     this.setState(
                         {
@@ -100,13 +102,13 @@ class App extends Component {
                     personsLength={this.state.persons.length}
                     clicked={this.togglePersonsHandler}
                     title={this.props.appTitle}
-                /> : ''}
+                /> : null}
                 {persons}
 
-            </div>
+            </Aux>
         );
         //   return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
     }
 }
 
-export default App;
+export default withClass(App, classes.App);
