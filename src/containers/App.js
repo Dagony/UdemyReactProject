@@ -4,6 +4,7 @@ import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
 import withClass from '../hoc/WithClass';
 import Aux from "../hoc/Aux";
+import AuthContext from '../context/auth-context';
 
 class App extends Component {
 
@@ -58,7 +59,7 @@ class App extends Component {
         const persons = [...this.state.persons];
         persons[personIndex] = person;
 
-        this.setState((prevState, props) => {
+        this.setState((prevState) => {
             return {
                 persons: persons,
                 changeCounter: prevState.changeCounter + 1
@@ -106,15 +107,15 @@ class App extends Component {
                     );
                 }}>Remove Cockpit
                 </button>
-                {this.state.showCockpit ? <Cockpit
-                    showPersons={this.state.showPersons}
-                    personsLength={this.state.persons.length}
-                    clicked={this.togglePersonsHandler}
-                    title={this.props.appTitle}
-                    login={this.loginHandler}
-                /> : null}
-                {persons}
-
+                <AuthContext.Provider value={{authenticated: this.state.authenticated, login: this.loginHandler}}>
+                    {this.state.showCockpit ? <Cockpit
+                        showPersons={this.state.showPersons}
+                        personsLength={this.state.persons.length}
+                        clicked={this.togglePersonsHandler}
+                        title={this.props.appTitle}
+                    /> : null}
+                    {persons}
+                </AuthContext.Provider>
             </Aux>
         );
         //   return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
