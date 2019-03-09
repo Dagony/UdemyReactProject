@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import Person from './Person/Person';
 
-class Persons extends Component {
+class Persons extends PureComponent {
 
     constructor(props) {
         super(props);
@@ -9,10 +9,15 @@ class Persons extends Component {
         this.state = {};
     }
 
-    shouldComponentUpdate(nextProps, nextState) {
-        console.log('[Persons.js] shouldComponentUpdate');
-        return nextProps.persons !== this.props.persons;
-    }
+    // Because shouldComponentUpdate would have to check if every prop of Persons had changed,
+    // we converted the React.Component to React.PureComponent
+    //
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     console.log('[Persons.js] shouldComponentUpdate');
+    //     return nextProps.persons !== this.props.persons ||
+    //         nextProps.changed !== this.props.changed ||
+    //         nextProps.clicked !== this.props.clicked;
+    // }
 
     getSnapshotBeforeUpdate(prevProps, prevState) {
         console.log('[Persons.js] getSnapshotBeforeUpdate');
