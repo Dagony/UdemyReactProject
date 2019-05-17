@@ -16,7 +16,10 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'npm test'
+                withEnv(["JEST_UNIT_OUTPUT=./jest-test.results.xml"]) {
+                    sh 'npm test -- --ci --testResultsProcessor="jest-junit"'
+                }
+                junit 'jest-test-results.xml'
             }
         }
         stage('Deliver') {

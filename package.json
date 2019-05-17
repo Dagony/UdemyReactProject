@@ -93,6 +93,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "jest-junit": "^6.4.0",
     "node-dev": "^3.0.0"
   }
 }
