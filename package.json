@@ -54,6 +54,10 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
     ],
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
     ],
